@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+   <head>
+      <meta charset="UTF-8" />
+      <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+      <!-- displays site properly based on user's device -->
+
+      <link
+         rel="icon"
+         type="image/png"
+         sizes="32x32"
+         href="./images/favicon-32x32.png"
+      />
+      <link rel="stylesheet" href="styles.css" />
+      <title>Frontend Mentor | Advice generator app</title>
+   </head>
+   <body class="font-manrope font-extrabold bg-darkBlue">
+      <div
+         class="h-screen w-screen flex items-center justify-center text-center"
+      >
+         <div
+            class="wrapper bg-darkGrayishBlue rounded-xl py-14 px-6 relative min-h-cardHeight"
+         >
+            <span
+               class="text-neonGreen uppercase font-normal tracking-custom advice-no"
+            >
+               Loading...
+            </span>
+            <p class="text-3xl my-8 text-lightCyan advice-text">Loading...</p>
+
+            <div class="flex justify-center">
+               <img
+                  class="md:hidden"
+                  src="./images/pattern-divider-mobile.svg"
+                  alt=""
+               />
+               <img
+                  class="hidden md:block"
+                  src="./images/pattern-divider-desktop.svg"
+                  alt=""
+               />
+            </div>
+
+            <button
+               type="button"
+               class="btn bg-neonGreen p-4 border-0 rounded-full absolute top-full left-1/2 transform -translate-x-1/2 -translate-y-1/2"
+               aria-label="New Advice"
+            >
+               <img src="./images/icon-dice.svg" alt="icon dice" />
+            </button>
+         </div>
+      </div>
+
+      <!-- <div class="attribution">
+         Challenge by
+         <a
+            href="https://www.frontendmentor.io?ref=challenge"
+            target="_blank"
+            rel="noopener"
+            >Frontend Mentor</a
+         >. Coded by <a href="#">DevUbong</a>.
+      </div> -->
+
+      <script src="app.js"></script>
+   </body>
+</html>
